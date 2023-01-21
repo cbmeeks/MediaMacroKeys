@@ -7,6 +7,8 @@
 #	Surprisingly, I've actually started liking the macro keyboard better than
 #	the media keys on the keyboard anyway.
 #
+#	TODO:  Add MUTE button support
+#
 #	Made in 2022 by cbmeeks@gmail.com
 #
 import time
@@ -57,5 +59,3 @@ while True:
 
     time.sleep(0.1)
     led.value = False
-
-
